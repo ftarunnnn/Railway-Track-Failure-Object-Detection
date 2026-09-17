@@ -1,0 +1,38 @@
+{
+    "total_records": 2000,
+    "class_distribution": {
+        "1": 1595,
+        "0": 405
+    },
+    "class_percentages": {
+        "1": 0.7975,
+        "0": 0.2025
+    },
+    "feature_means": {
+        "vibration_g": 1.5205388239249304,
+        "temperature_c": 27.908907080265294,
+        "pressure_psi": 4485.598314045125,
+        "maintenance_days": 182.0,
+        "track_stress_index": 5.643633739166722,
+        "failure_status": 0.7975,
+        "maint_recent": 0.1695,
+        "maint_moderate": 0.3245,
+        "maint_overdue": 0.506
+    },
+    "feature_stds": {
+        "vibration_g": 0.48727283116030223,
+        "temperature_c": 7.954614993970307,
+        "pressure_psi": 299.89906850317686,
+        "maintenance_days": 105.11288388765475,
+        "track_stress_index": 2.1512621923774793,
+        "failure_status": 0.40196335314134585,
+        "maint_recent": 0.37528678378680286,
+        "maint_moderate": 0.46830482028519754,
+        "maint_overdue": 0.5000890365947458
+    },
+    "figures_generated": [
+        "failure_status_imbalance.png",
+        "vibration_temperature_distribution.png",
+        "feature_correlation_heatmap.png"
+    ]
+}
