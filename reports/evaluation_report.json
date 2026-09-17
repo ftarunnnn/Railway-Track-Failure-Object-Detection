@@ -1,0 +1,33 @@
+{
+    "ml_telemetry_evaluation": {
+        "accuracy": 0.9665,
+        "precision": 0.9733581164807931,
+        "recall": 0.9849529780564263,
+        "f1_score": 0.9791212215643502,
+        "roc_auc": 0.9774108905143387,
+        "confusion_matrix": {
+            "true_negatives": 362,
+            "false_positives": 43,
+            "false_negatives": 24,
+            "true_positives": 1571
+        },
+        "error_analysis": {
+            "false_positive_rate": 0.10617283950617284,
+            "false_negative_rate": 0.015047021943573668
+        }
+    },
+    "dl_yolo_evaluation": {
+        "mAP50": 0.845,
+        "mAP50_95": 0.621,
+        "precision": 0.882,
+        "recall": 0.814,
+        "mean_iou": 0.768,
+        "evaluated_classes": [
+            "normal",
+            "broken_rail",
+            "crack",
+            "missing_fishplate",
+            "obstacle"
+        ]
+    }
+}
